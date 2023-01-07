@@ -1,0 +1,38 @@
+{
+  "name": "cypress-cucumber-e2e",
+  "version": "1.0.0",
+  "scripts": {
+    "cy:open": "pnpm cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "javascript",
+    "js",
+    "typescript",
+    "google"
+  ],
+  "author": "Viacheslav.Horbovskykh (slav.horbovskykh@gmail.com)",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "cypress": "^12.3.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "webpack": "^5.75.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e"
+  },
+  "description": "Experiment with Cypress and Cucumber for e2e tests.",
+  "main": "cypress.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhorb/cypress-cucumber-e2e.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vhorb/cypress-cucumber-e2e/issues"
+  },
+  "homepage": "https://github.com/vhorb/cypress-cucumber-e2e#readme"
+}
